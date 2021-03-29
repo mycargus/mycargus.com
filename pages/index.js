@@ -26,13 +26,18 @@ export default function Home() {
             </Link>
           </div>
 
-          <a href="https://about.me/michael.hargiss" className={styles.card}>
+          <a
+            href="https://about.me/michael.hargiss"
+            target="_blank"
+            rel="noreferrer noopener"
+            className={styles.card}
+          >
             <h3>About &rarr;</h3>
             <p>All about yours truly</p>
           </a>
 
           <div className={styles.card}>
-            <Link href="https://mycargus.com/code" className={styles.card}>
+            <Link href="/code/placeholder" className={styles.card}>
               <a>
                 <h3>Code &rarr;</h3>
                 <p>
