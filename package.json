@@ -1,7 +1,9 @@
 {
   "name": "mycargus.com",
   "version": "0.1.0",
+  "description": "Mikey's personal website",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,5 +13,8 @@
     "next": "10.0.9",
     "react": "17.0.2",
     "react-dom": "17.0.2"
+  },
+  "volta": {
+    "node": "14.16.0"
   }
 }
