@@ -23,6 +23,7 @@
     "node": "14.16.0"
   },
   "devDependencies": {
+    "@arkweid/lefthook": "^0.7.2",
     "eslint": "^7.23.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.1.0",
