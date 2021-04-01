@@ -11,3 +11,5 @@ pre-commit:
   commands:
     lint:
       run: npm run lint {staged_files}
+    test:
+      run: npm test
