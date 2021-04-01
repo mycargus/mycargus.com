@@ -1,4 +1,4 @@
-import styles from "../../styles/Home.module.css";
+import styles from '../../styles/Home.module.css'
 
 export default function Placeholder() {
   return (
@@ -9,5 +9,5 @@ export default function Placeholder() {
         <p className={styles.description}>Coming soon!</p>
       </main>
     </div>
-  );
+  )
 }
