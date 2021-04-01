@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Emoji from 'a11y-react-emoji'
 import styles from '../styles/Home.module.css'
-import Emoji from "a11y-react-emoji";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Welcome to mycargus.com!</h1>
 
-        <p className={styles.description}>{"{Currently under construction}"}</p>
+        <p className={styles.description}>{'{Currently under construction}'}</p>
 
         <div className={styles.grid}>
           <div className={styles.card}>
@@ -54,5 +54,5 @@ export default function Home() {
         Made with "<Emoji symbol="❤️" label="love" />" by Mikey Hargiss
       </footer>
     </div>
-  );
+  )
 }
